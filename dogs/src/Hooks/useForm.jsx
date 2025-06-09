@@ -36,12 +36,8 @@ const useForm = (type) => {
     setValue,
     onChange,
     error,
-    validate: () => {
-      validate(value);
-    },
-    onBlur: () => {
-      validate(value);
-    },
+    validate: () => validate(value),
+    onBlur: () => validate(value),
   };
 };
 
