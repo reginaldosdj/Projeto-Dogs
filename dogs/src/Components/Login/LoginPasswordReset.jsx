@@ -15,9 +15,14 @@ const LoginPasswordReset = () => {
   const { data, loading, error, request } = useFetch();
   const navigate = useNavigate();
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const key = params.get('key');
-    const login = params.get('login');
+    const hash = window.location.hash;
+    console.log(hash);
+    const searchParams = hash.includes('?')
+      ? new URLSearchParams(hash.split('?')[1])
+      : new URLSearchParams();
+
+    const key = searchParams.get('key');
+    const login = searchParams.get('login');
     if (key) setKey(key);
     if (login) setLogin(login);
   }, []);
