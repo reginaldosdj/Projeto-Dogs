@@ -1,6 +1,6 @@
 # Projeto-Dogs
 
-Projeto-Dogs é uma aplicação web React para gerenciamento de usuários, fotos e autenticação, utilizando Vite como bundler e React Router com `HashRouter` para navegação. O deploy é feito via GitHub Pages, garantindo suporte para rotas em ambiente estático.
+Projeto-Dogs é uma aplicação web React para gerenciamento de usuários, fotos e autenticação, desenvolvida como parte do curso da Origamid. Utiliza Vite como bundler e React Router com HashRouter para navegação, garantindo que as rotas funcionem corretamente em ambiente estático. O deploy é feito via GitHub Pages, oferecendo uma hospedagem simples e eficiente.
 
 ---
 
