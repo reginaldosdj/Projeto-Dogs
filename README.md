@@ -31,3 +31,9 @@ Projeto-Dogs é uma aplicação web React para gerenciamento de usuários, fotos
    git clone https://github.com/reginaldosdj/Projeto-Dogs.git
    cd Projeto-Dogs
    ```
+
+
+## 🌐 Acesse o projeto online
+O projeto está hospedado no GitHub Pages e pode ser acessado em:
+
+https://reginaldosdj.github.io/Projeto-Dogs/
