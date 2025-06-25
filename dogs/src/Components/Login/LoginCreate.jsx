@@ -3,9 +3,10 @@ import Input from '../Forms/Input';
 import Button from '../Forms/Button';
 import Error from '../Helper/Error.jsx';
 import useForm from '../../Hooks/useForm';
-import { USER_POST } from '../../api';
+import { USER_POST } from '../../Api.js';
 import { UserContext } from '../../UserContext.jsx';
 import useFetch from '../../Hooks/useFetch.jsx';
+import Head from '../Helper/Head.jsx';
 
 const LoginCreate = () => {
   const username = useForm();
@@ -27,6 +28,7 @@ const LoginCreate = () => {
 
   return (
     <section className="animeLeft">
+      <Head title="Crie sua conta" />
       <h1 className="title">Cadastre-se</h1>
       <form onSubmit={handleSubmit}>
         <Input label="Usuário" type="text" name="username" {...username} />
